@@ -7,12 +7,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ---
 
-### Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta e do Manual da Pessoa Estudante da Trybe
-
----
-
 # Entregáveis
 
 <details>
@@ -48,16 +42,6 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
 
 Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/4d67f5b4-34a6-489f-a205-b6c7dc50fc16/) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
  </details>
-
-<details>
-  <summary><strong>🗓 Data de Entrega</strong></summary><br />
-
-- Projeto individual.
-
-- Serão `1` dias de projeto.
-
-- Data de entrega para avaliação final do projeto: `01/06/2022 14:00`.
-  </details>
 
 # Orientações
 
@@ -103,73 +87,7 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
   <br/>
 </details>
 
-<details>
-  <summary><strong>‼️ Antes de começar a desenvolver</strong></summary><br />
 
-1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-019-c-mysql-all-for-one.git`.
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-019-c-mysql-all-for-one`
-
-2. Instale as dependências [**Caso existam**]
-  * `npm install` [**exemplo**]
-
-3. Crie uma branch a partir da branch `master`
-  * Verifique que você está na branch `master`
-    * Exemplo: `git branch`
-  * Se não estiver, mude para a branch `master`
-    * Exemplo: `git checkout master`
-  * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
-    * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    * Exemplo: `git checkout -b seunome-mysql-all-for-one`
-
-4. Para cada exercício você deve criar um novo arquivo sql seguindo a seguinte estrutura:
-  * desafio1.sql, desafio2.sql...desafioN.sql
-  * 💡 Use o seguinte comando para gerar os arquivos: `touch desafio{1..27}.sql`
-
-5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-  * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (deve aparecer o arquivo que você alterou como desafio1.sql)
-  * Adicione o novo arquivo ao _stage_ do Git
-      * Exemplo:
-        * `git add .` (adicionando solução para desafio 1)
-        * `git status` (deve aparecer listado o arquivo _desafio1.sql_ em verde)
-  * Faça o `commit` inicial
-      * Exemplo:
-        * `git commit -m 'iniciando o projeto MySQL All For One'` (fazendo o primeiro commit)
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-6. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin seunome-mysql-all-for-one`
-
-7. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-019-c-mysql-all-for-one/pulls)
-  * Clique no botão verde _"New pull request"_
-  * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  * Clique no botão verde _"Create pull request"_
-  * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-  * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-019-c-mysql-all-for-one/pulls) e confira que o seu _Pull Request_ está criado
-
-</details>
-
-<details>
-  <summary><strong>⌨️ Durante o desenvolvimento</strong></summary><br />
-
-## ⚠️ É importante que seus arquivos tenham exatamente estes nomes e esteja na raiz do projeto! ⚠️
-
-* Faça `commits` das alterações que você fizer no código regularmente.
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto.
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-  5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
-</details>
 
 </details>
 
@@ -285,25 +203,6 @@ MYSQL_USER=root MYSQL_PASSWORD=1234 HOSTNAME=localhost npm test
 - **:warning: Atenção:** Não é necessário colocar `USE northwind` ou `SET SQL_SAFE_UPDATES = 0;` no início dos seus arquivos
 
 - **:warning: Atenção:** Após a execução dos teste locais, o banco de dados `northwind` é deletado :warning:
-
-</details>
-
-  <details>
-  <summary><strong>🗣 Nos dê feedbacks sobre o projeto!</strong></summary><br />
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário.
-**Leva menos de 3 minutos!**
-
-[FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-:warning: **O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?**
-
-</details>
-
-<details>
-  <summary><strong>🗂 Compartilhe seu portfólio!</strong></summary><br />
-
-  Você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
 
 </details>
 
